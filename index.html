@@ -1,155 +1,209 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+    <!--  title  -->
+    <title>
+      Musele Saidi | A Full-Stack Developer based in Johannesburg, South Africa
+    </title>
 
-  <!--  title  -->
-  <title>
-    Musele Saidi | A Front-End Developer based in Johannesburg, South Africa
-  </title>
+    <meta name="description" content="Add small description of yourslef." />
+    <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+    <meta
+      name="keywords"
+      content="Put your name, skills and some coding keywords"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
 
-  <meta name="description" content="Add small description of yourslef.">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Put your name, skills and some coding keywords" />
-  <link rel="stylesheet" href="index.css" />
-</head>
+  <body>
+    <!-- ***** Header ***** -->
 
-<body>
-
-  <!-- ***** Header ***** -->
-
-  <header class="header" role="banner" id="top">
-    <div class="row">
-      <nav class="nav" role="navigation">
-        <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <!-- <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li> -->
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="header__text-box row">
-      <div class="header__text">
-        <h1 class="heading-primary">
-          <!-- Replace the following name with your name -->
-          <span>Musele Saidi</span> 
-        </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>A Front-End Developer based in Johannesburg, RSA
-</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
-      </div>
-    </div>
-  </header>
-
-  <main role="main">
-
-    <!-- ***** Work ***** -->
-
-    <section class="work" id="work">
+    <header class="header" role="banner" id="top">
       <div class="row">
-        <h2>My Work</h2>
-        <div class="work__boxes">
+        <nav class="nav" role="navigation">
+          <ul class="nav__items">
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <!-- <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li> -->
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__text-box row">
+        <div class="header__text">
+          <h1 class="heading-primary">
+            <!-- Replace the following name with your name -->
+            <span>Musele Saidi</span>
+          </h1>
+          <!-- Put a small paragraph about yourself -->
+          <p>A Full-Stack Developer based in Johannesburg, RSA</p>
+          <a href="#contact" class="btn btn--pink">Get in touch</a>
+        </div>
+      </div>
+    </header>
 
-          <!-- Each div with the work__box class is a project. -->
+    <main role="main">
+      <!-- ***** Work ***** -->
 
-         
-          
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Personal Dashboard</h3>
-              <p>
-                A Chrome extension to help you focus and stay up-to-date.
-              </p>
-              <ul class="work__list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>API</li>
-              </ul>
+      <section class="work" id="work">
+        <div class="row">
+          <h2>My Work</h2>
+          <div class="work__boxes">
+            <!-- Each div with the work__box class is a project. -->
 
-              <div class="work__links">
-                <a href="https://incandescent-heliotrope-e1e124.netlify.app/" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/Saidi-Dieu-Merci/Personal-Dashboard" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Personal Dashboard</h3>
+                <p>A Chrome extension to help you focus and stay up-to-date.</p>
+                <ul class="work__list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>API</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://incandescent-heliotrope-e1e124.netlify.app/"
+                    target="_blank"
+                    class="link__text"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/Saidi-Dieu-Merci/Personal-Dashboard"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/dash-bord.png"
+                  class="work__image"
+                  alt="Project 1"
+                />
               </div>
             </div>
-            <div class="work__image-box">
-              <img src="./images/dash-bord.png" class="work__image" alt="Project 1" />
-            </div>
-          </div>
 
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Tenzzies APP</h3>
-              <p>
-                A classic dice-matching game where you try to get all 10 dice to show the same number as fast as possible.
-              </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>CSS</li>
-                <li>JavaScript (ES6)</li>
-                <li>HTML</li>
-              </ul>
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Tenzzies APP</h3>
+                <p>
+                  A classic dice-matching game where you try to get all 10 dice
+                  to show the same number as fast as possible.
+                </p>
+                <ul class="work__list">
+                  <li>React</li>
+                  <li>CSS</li>
+                  <li>JavaScript (ES6)</li>
+                  <li>HTML</li>
+                </ul>
 
-              <div class="work__links">
-                <a href="https://warm-lolly-b8276a.netlify.app/" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/Saidi-Dieu-Merci/Tenzies-app" target="_blank">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
+                <div class="work__links">
+                  <a
+                    href="https://warm-lolly-b8276a.netlify.app/"
+                    target="_blank"
+                    class="link__text"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/Saidi-Dieu-Merci/Tenzies-app"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      title="View Source Code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/tenzzies-game.png"
+                  class="work__image"
+                  alt="Project 1"
+                />
               </div>
             </div>
-            <div class="work__image-box">
-              <img src="./images/tenzzies-game.png" class="work__image" alt="Project 1" />
-            </div>
-          </div>
 
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Responsive design App</h3>
-              <p>
-                 A classic challenge where you focus on Flexbox and CSS Grid to create complex layouts that shift seamlessly between screen sizes.
-              </p>
-              <ul class="work__list">
-                <li>Responsive design</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>HTML</li>
-              </ul>
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Tiny Library App</h3>
+                <p>
+                  📚 Tiny Library App A fullstack web app built with React,
+                  Next.js, TypeScript, Tailwind CSS, and Styled Components,
+                  featuring responsive layouts powered by Flexbox and CSS Grid.
+                  On the backend, it uses Node.js, Express.js, and SQLite for
+                  book and category management, with APIs for seamless data
+                  flow. This project highlights modern fullstack development,
+                  blending clean UI design with robust backend logic.
+                </p>
+                <ul class="work__list">
+                  <li>Frontend: React, Next.js, TypeScript</li>
+                  <li>
+                    Styling: Tailwind CSS, Styled Components, Flexbox, CSS Grid
+                  </li>
+                  <li>Backend: Node.js, Express.js, SQLite</li>
+                  <li>
+                    Database: SQLite (with seeding for books & categories)
+                  </li>
+                </ul>
 
-              <div class="work__links">
-                <a href="https://graceful-pastelito-153a02.netlify.app/" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/Saidi-Dieu-Merci/Responsive-design-app" target="_blank">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
+                <div class="work__links">
+                  <a
+                    href="https://profound-choux-ac3f53.netlify.app/"
+                    target="_blank"
+                    class="link__text"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/Saidi-Dieu-Merci/tiny-libraary"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      title="View Source Code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
               </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/resposive-design-solo.png" class="work__image" alt="Project 3" />
+              <div class="work__image-box">
+                <img
+                  src=".\images\tiny-image.png"
+                  class="work__image"
+                  alt="Project 3"
+                />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- ***** Clients ***** -->
-<!-- 
+      <!-- ***** Clients ***** -->
+      <!-- 
     <section class="client" id="clients">
       <div class="row">
         <h2>Clients</h2>
@@ -164,76 +218,125 @@
       </div>
     </section> -->
 
-    <!-- ***** About ***** -->
+      <!-- ***** About ***** -->
 
-    <section class="about" id="about">
+      <section class="about" id="about">
+        <div class="row">
+          <h2>About Me</h2>
+          <div class="about__content">
+            <div class="about__text">
+              <!-- Replace the below paragraph with info about yourself -->
+              <p>
+                🌍 Based in South Africa, I am a FullStack Developer passionate
+                about building impactful, high performance web applications. ⚡
+                I craft responsive UIs with React, Next.js, TypeScript, Tailwind
+                CSS, and Styled Components, blending design with functionality.
+                🛠 On the backend, I work with Node.js, Express.js, SQL & NoSQL
+                databases, delivering scalable and reliable systems. 🤖 My
+                journey now includes AI Engineering, integrating intelligent
+                features into modern applications. ⚽ My background as a soccer
+                coach and sales representative taught me teamwork, strategy, and
+                customer focus. 📜 Certified by freeCodeCamp and Scrimba, I
+                bring dedication to learning — and yes, I share life with one
+                adorable dog.
+              </p>
+              <!-- Provide a link to your resume -->
+              <a href="#" class="btn">My Resume</a>
+            </div>
+
+            <div class="about__photo-container">
+              <!-- Add a nice photo of yourself -->
+              <img
+                class="about__photo"
+                src="./images/saidi.jpg"
+                alt="Saidi in a green jacket"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ***** Contact ***** -->
+
+    <section class="contact" id="contact">
       <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-           <p>Based in South Africa, I am a Frontend Developer and designer dedicated to crafting impactful, high-performance web applications. I specialise in building responsive user interfaces with React and javaScript (ES6) , using Tailwind CSS and Styled Components to ensure every project is as visually delightful as it is functional.</p>
-            <p>My background is in Soccer coach and Sales representative, and I have a certificate from FreCodeCamp and Scrimba. I also have one adorable dog.</p>
-            <!-- Provide a link to your resume -->
-            <a href="#" class="btn">My Resume</a>
-          </div>
-
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/saidi.jpg" alt="Saidi in a green jacket" />
-          </div>
+        <h2>Get in Touch</h2>
+        <div class="contact__info">
+          <p>
+            Whether you need a high-performance website for your brand, expert
+            consultation, or just want to chat, I'm here to help. If you have
+            questions, feedback, or simply want to say hello, feel free to get
+            in touch.I will get back to you as soon as possible, but for the
+            fastest response, please send me an email or give me a call at
+            <span class="cell-phone">+27658327644.</span>
+          </p>
+          <!-- Replace the email with yours -->
+          <a href="mercidieumuselemu1997@gmail.com" class="btn"
+            >mercidieumuselemu1997@gmail.com</a
+          >
         </div>
       </div>
     </section>
-  </main>
 
-  <!-- ***** Contact ***** -->
+    <!-- ***** Footer ***** -->
 
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Get in Touch</h2>
-      <div class="contact__info">
-        <p>
-          Whether you need a high-performance website for your brand, expert consultation, or just want to chat, I'm here to help. If you have questions, feedback, or simply want to say hello, feel free to get in touch.I will get back to you as soon as possible, but for the fastest response, please send me an email or give me a call at <span class="cell-phone">+27658784583.</span>
-        </p>
-        <!-- Replace the email with yours -->
-        <a href="musele:muselesaidi@gmail.com" class="btn">muselesaidi@gmail.com</a>
+    <footer role="contentinfo" class="footer">
+      <div class="row">
+        <!-- Update the links to point to your accounts -->
+        <ul class="footer__social-links">
+          <li class="footer__social-link-item">
+            <a
+              href="https://x.com/home"
+              title="Link to Twitter Profile"
+              target="_blank"
+            >
+              <img
+                src="./images/twitter.svg"
+                class="footer__social-image"
+                alt="Twitter"
+              />
+            </a>
+          </li>
+          <li class="footer__social-link-item">
+            <a
+              href="https://github.com/dashboard"
+              title="Link to Github Profile"
+              target="_blank"
+            >
+              <img
+                src="./images/github.svg"
+                class="footer__social-image"
+                alt="Github"
+              />
+            </a>
+          </li>
+
+          <li class="footer__social-link-item">
+            <a
+              href="https://www.linkedin.com/in/musele-saidi-b2b9b1313
+"
+              target="_blank"
+            >
+              <img
+                src="./images/linkedin.svg"
+                title="Link to Linkedin Profile"
+                class="footer__social-image"
+                alt="Linkedin"
+              />
+            </a>
+          </li>
+        </ul>
       </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-- ***** Footer ***** -->
-
-  <footer role="contentinfo" class="footer">
-    <div class="row">
-      <!-- Update the links to point to your accounts -->
-      <ul class="footer__social-links">
-        <li class="footer__social-link-item">
-          <a href="https://x.com/home" title="Link to Twitter Profile" target="_blank">
-            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://github.com/dashboard" title="Link to Github Profile" target="_blank">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-        
-        <li class="footer__social-link-item">
-          <a href="https://www.linkedin.com/in/musele-saidi-b2b9b1313
-" target="_blank">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
-      </ul>
-
-    </div>
-  </footer>
-
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
-  </a>
-  <script src="./index.js"></script>
-</body>
-
+    <a href="#top" class="back-to-top" title="Back to Top">
+      <img
+        src="./images/arrow-up.svg"
+        alt="Back to Top"
+        class="back-to-top__image"
+      />
+    </a>
+    <script src="./index.js"></script>
+  </body>
 </html>
